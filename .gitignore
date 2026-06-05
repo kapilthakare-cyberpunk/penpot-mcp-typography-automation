@@ -1,0 +1,64 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# OS files
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+logs/
+
+# Backups and temp files
+*.backup
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# AI tool session data
+.aider.chat.history.md
+.aider*
+.serena/
+.superpowers/
+.playwright-mcp/
+.mcp-telegram/
+.mcp-firecrawl/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Debug output / transient tooling
+tools_*.json
+tools_*.txt
+mcp-server.log
+output-exports/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Claude/agent local state
+.claude/settings.local.json
+.agents/state/
+.agents/mcp.json
+
+# macOS quarantine attrs
+*.qtn
