@@ -80,3 +80,7 @@ credentials*.json
 # Tooling
 .mimocode/
 .opencode/
+
+# Nested repo
+penpot-repo/
+
