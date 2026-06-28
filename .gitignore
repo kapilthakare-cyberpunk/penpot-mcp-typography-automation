@@ -62,3 +62,21 @@ output-exports/
 
 # macOS quarantine attrs
 *.qtn
+.codegraph/
+
+
+# Build artifacts
+.codegraph/
+__pycache__/
+*.pyc
+.coverage
+.DS_Store
+
+# Secrets
+*.secret
+client_secret*.json
+credentials*.json
+
+# Tooling
+.mimocode/
+.opencode/
