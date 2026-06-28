@@ -88,3 +88,7 @@ penpot-repo/
 # Force ignore
 penpot-repo
 
+
+# Submodules and nested repos
+mcp-server/
+penpot-repo/
