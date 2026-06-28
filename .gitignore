@@ -84,3 +84,7 @@ credentials*.json
 # Nested repo
 penpot-repo/
 
+
+# Force ignore
+penpot-repo
+
